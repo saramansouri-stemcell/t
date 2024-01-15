@@ -8,23 +8,61 @@
   line-height: 1;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFF;
+  padding: 5px 15px;
+  background: #EF8200;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 0;
+  
+  font-family: Lato, Helvetica, Arial, sans-serif;
 }
 .storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  
+  line-height: 18px;
+  color: #EF8200;
+  background: #FFF;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 0;
+  
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  /* color: #333;
+  background-color: transparent; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset; */
 }
 .storybook-button--small {
+  
+  line-height: 18px;
+  color: #FFF;
+  background: #EF8200;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 0;
+  
+  font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 12px;
   padding: 10px 16px;
 }
 .storybook-button--medium {
+  
+  font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 14px;
   padding: 11px 20px;
 }
 .storybook-button--large {
+  line-height: 18px;
+  color: #FFF;
+  background: #EF8200;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 0;
+  
+  font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 16px;
   padding: 12px 24px;
 }
+.storybook-header img {width: 250px;}

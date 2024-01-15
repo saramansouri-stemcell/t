@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Header } from './Header';
+import { Footer } from './Footer';
 import './page.css';
 
 export const Page = () => {
@@ -32,7 +33,7 @@ export const Page = () => {
         <ul>
           <li>
             Use a higher-level connected component. Storybook helps you compose such data from the
-            "args" of child component stories
+            args of child component stories
           </li>
           <li>
             Assemble data in the page component from your services. You can mock these services out
@@ -64,6 +65,9 @@ export const Page = () => {
           Viewports addon in the toolbar
         </div>
       </section>
+    <Footer
+     label='Copyright © 2024 by STEMCELL Technologies. All rights reserved.        '
+     />
     </article>
   );
 };
